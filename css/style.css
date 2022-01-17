@@ -10,7 +10,7 @@ body {
 .navbar {
     background: #3b427c;
     height: 80px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
     padding-right: 10%;
     padding-left: 10%;
     position: fixed;
@@ -55,6 +55,7 @@ body {
     line-height: 3.333em;
     text-decoration: none;
     color: #212442;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 .itemen {
@@ -71,6 +72,7 @@ body {
     line-height: 3.333em;
     text-decoration: none;
     color: #212442;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 .donatelink {
@@ -87,11 +89,13 @@ body {
     line-height: 3.333em;
     text-decoration: none;
     color: #212442;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 .logotje1 {
     background: none;
     padding: 0;
+    
 }
 
 .logotje {
@@ -148,6 +152,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 h1 {
@@ -197,6 +202,7 @@ h1 {
     font-weight: bold;
     width: auto;
     height: 211px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 .eislijst {
@@ -224,6 +230,7 @@ h1 {
     text-align: center;
     max-height: 59;
     width: auto;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
 }
 
 /*VRIJWILLIGER*/
