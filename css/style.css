@@ -153,6 +153,13 @@ h1 {
     font-weight: bold;
     font-size: 24px;
     color: #212442;
+    margin: 0;
+}
+
+.h1link {
+    font-weight: bold;
+    font-size: 24px;
+    color: #212442;
 }
 
 .socials {
