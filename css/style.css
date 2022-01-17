@@ -243,6 +243,14 @@ h1 {
     margin-top: 20px;
 }
 
+.supernova {
+    max-width: 826px;
+    background-color: #212442;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .gfm-embed {
     width: 478px;
     margin-top: 20px;
