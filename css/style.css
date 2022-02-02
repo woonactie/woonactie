@@ -147,7 +147,6 @@ body {
     width: 100%;
     padding: 10px;
     display: block;
-    margin-top: 20px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -211,26 +210,62 @@ h1 {
     padding: 0px;
 }
 
-.eislijst li {
+.eis1 {
     margin-top: 20px;
 }
 
 .eisen {
+    cursor: pointer;
     background: #3b427c;
     border-color: white;
     border-style: solid;
     border-width: 3px;
     color: white;
+    font-weight: bold;
     max-width: 800px;
     width: 100%;
     display: block;
+    margin: auto;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    text-align: center;
+    max-height: 59;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
+}
+
+.linkje {
+    color: #212442;
+}
+
+
+.eisen:hover {
+    background: #212442;
+    transition: 200ms;
+}
+
+.open {
+    background: white;
+    color:#212442;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    max-width: 800px;
+    width: 100%;
+    display: none;
     margin: auto;
     padding: 10px;
     font-size: 20px;
     text-align: center;
     max-height: 59;
     width: auto;
-    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
+}
+
+
+.combined {
+    display: block;
 }
 
 /*VRIJWILLIGER*/

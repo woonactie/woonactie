@@ -30,18 +30,16 @@
                             <div class="donatietekst"><p>STEUN DE WOONACTIE DOOR TE DONEREN VIA ONZE GOFUNDME</p></div>
                             <div class="gfm-embed" data-url="https://www.gofundme.com/f/woonactie/widget/medium/"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
                         </div>
-                        <div class="uitleg"><h1>Net als andere woonprotesten, steunen ook wij de eisen van het <a class="h1link" href="https://woonmanifest.nl/">woonmanifest</a>. Hieronder staan de kopjes van de eisen</h1></div>
+                        <div class="uitleg"><h1>Net als andere woonprotesten, steunen ook wij de eisen van het <a class="h1link" href="https://woonmanifest.nl/">woonmanifest</a>. Hieronder zijn onze eisen voor Delft te vinden.</h1></div>
                         <ul class="eislijst">
-                            <li><a class="eisen">MAAK HET BESTRIJDEN VAN (DREIGENDE) DAKLOOSHEID TOPPRIORITEIT</a></li>
-                            <li><a class="eisen">ZORG VOOR BREED TOEGANKELIJKE VOLKSHUISVESTING</a></li>
-                            <li><a class="eisen">GARANDEER BETAALBAARHEID</a></li>
-                            <li><a class="eisen">GARANDEER WOONZEKERHEID</a></li>
-                            <li><a class="eisen">VERKLEIN DE WOONONGELIJKHEID TUSSEN KOOP EN HUUR</a></li>
-                            <li><a class="eisen">BEWAAK DE GELIJKE TOEGANG TOT HUISVESTING</a></li>
-                            <li><a class="eisen">GEEF BURGERS GELIJKWAARDIGE INSPRAAK</a></li>
-                            <li><a class="eisen">DAM DE FINANCIALISERING VAN HUISVESTING IN</a></li>
-                            <li><a class="eisen">GEEF MALAFIDE VERHUURDERS EN MAKELAARS GEEN KANS</a></li>
-                            <li><a class="eisen">PAK LEEGSTAND STEVIG AAN</a></li>
+                            <li class="eis1"><p onclick="openIt()" class="eisen">STOP GENTRIFICATIE</p></li>
+                            <li><p id="open1" class="open">Leg de focus op de huidige demografie van Delft en de tekorten van woningen die nu in Delft spelen. Zorg dat de plannen voor <a class="linkje" href="https://media.xkp.nl/PZH/nieuwdelft/">nieuw Delft</a> niet alleen koop-en-starters-woningen zijn, maar ook sociale huur en studentenwoningen meer ruimte krijgen. Delft hoeft niet aantrekkelijker te worden voor uitwas van Rotterdam en Den Haag, maar moet woonbaar zijn voor de mensen die er nu wonen.</p></li>
+                            <li class="eis1"><p onclick="openIt2()"  class="eisen">GARANDEER WOONZEKERHEID</p></li>
+                            <li><p id="open2" class="open">Zorg dat iedereen die hier komt studeren, hier ook kan wonen. Bouw genoeg (groeps-)woningen voor studenten, niet alleen studio’s, en communiceer het woningprobleem duidelijker naar toekomstige (internationale) studenten. Start met meer woningen bouwen op de campus. Wij vragen ook de universiteit om verantwoordelijkheid te nemen voor de studenten die ze aantrekken en de huisvesting van studenten een topprioriteit te maken.</p></li>
+                            <li class="eis1"><p onclick="openIt3()"  class="eisen">GARANDEER BETAALBAARHEID</p></li>
+                            <li><p id="open3" class="open">Bevries de huren en stop met het slopen van sociale huur zoals nu in de Bomenwijk gebeurd.</p></li>
+                            <li class="eis1"><p onclick="openIt4()"  class="eisen">VERBETER TOEGANKELIJKHEID</p></li>
+                            <li><p id="open4" class="open">Verbeter de toegankelijkheid voor mensen die door de huidige maatschappij worden beperkt in het vinden van passende woonruimte: beëindig validisme, racisme, homofobie, seksisme, transfobie, xenofobie en klassisme.</p></li>
                         </ul>
                     </div>
                 </article>
@@ -50,5 +48,23 @@
                 <p>Website by Yannick Zuurbier</p>
             </footer>
         </div>
+
+        <script>
+            function openIt() {
+                document.getElementById("open1").classList.toggle("combined");
+            }
+
+            function openIt2() {
+                document.getElementById("open2").classList.toggle("combined");
+            }
+
+            function openIt3() {
+                document.getElementById("open3").classList.toggle("combined");
+            }
+
+            function openIt4() {
+                document.getElementById("open4").classList.toggle("combined");
+            }
+        </script>
     </body>
 </html>

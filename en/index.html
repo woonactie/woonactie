@@ -30,18 +30,16 @@
                             <div class="donatietekst"><p>SUPPORT WOONACTIE BY DONATING TO OUR GOFUNDME</p></div>
                             <div class="gfm-embed" data-url="https://www.gofundme.com/f/woonactie/widget/medium/"></div><script defer src="https://www.gofundme.com/static/js/embed.js"></script>
                         </div>
-                        <div class="uitleg"><h1>Just like other housing protests, we too support the demands stated in <a class="h1link" href="https://woonmanifest.nl/">woonmanifest</a> listed below</h1></div>
+                        <div class="uitleg"><h1>Just like other housing protests, we too support the demands stated in <a class="h1link" href="https://woonmanifest.nl/">woonmanifest</a>. Listed below are our demands for Delft specifically.</h1></div>
                         <ul class="eislijst">
-                            <li><a class="eisen">MAKE FIGHTING (IMMINENT) HOMELESSNESS TOP PRIORITY</a></li>
-                            <li><a class="eisen">PROVIDE WIDELY ACCESSIBLE PUBLIC HOUSING</a></li>
-                            <li><a class="eisen">GUARANTEE AFFORDABILITY</a></li>
-                            <li><a class="eisen">GUARANTEE HOUSING CERTAINTY</a></li>
-                            <li><a class="eisen">REDUCE THE HOUSING INEQUALITY BETWEEN BUY AND RENT</a></li>
-                            <li><a class="eisen">DEFEND EQUAL ACCESS TO HOUSING</a></li>
-                            <li><a class="eisen">GIVE CITIZENS EQUAL PARTICIPATION</a></li>
-                            <li><a class="eisen">RESTRICT FINANCIALIZATION OF HOUSING</a></li>
-                            <li><a class="eisen">GIVE CORRUPT LANDLORDS AND ESTATE AGENTS NO CHANCE</a></li>
-                            <li><a class="eisen">FIGHT AGAINST VACANCY</a></li>
+                            <li class="eis1"><p onclick="openIt()" class="eisen">STOP GENTRIFICATION</p></li>
+                            <li><p id="open1" class="open">Focus on the current demographics of Delft and the housing shortages that are currently an issue in Delft. Make sure that the plans for <a class="link" href="https://media.xkp.nl/PZH/nieuwdelft/">nieuwe Delft</a> are not only owner-occupied homes, but also social rent and student housing are given more space. Delft does not have to become more attractive for the outgrowth of Rotterdam and The Hague, but must be habitable for the people who now live there.</p></li>
+                            <li class="eis1"><p onclick="openIt2()"  class="eisen">GUARANTEE HOUSING SECURITY</p></li>
+                            <li><p id="open2" class="open">Make sure that everyone who comes to study here can also live here. Build enough (group) housing for students, not just studios, and communicate the housing problem more clearly to future (international) students. Start building more homes on campus. We also ask the university to take responsibility for the students they attract and make student housing a top priority.</p></li>
+                            <li class="eis1"><p onclick="openIt3()"  class="eisen">GARANDEER AFFORDABILITY</p></li>
+                            <li><p id="open3" class="open">Freeze the rents and stop demolishing social housing as is now happening in the Bomenwijk.</p></li>
+                            <li class="eis1"><p onclick="openIt4()"  class="eisen">VERBETER TOEGANKELIJKHEID</p></li>
+                            <li><p id="open4" class="open">Improve accessibility for people who are limited by today's society in finding suitable housing: end validism, racism, homophobia, sexism, transphobia, xenophobia and classism.</p></li>
                         </ul>
                     </div>
                 </article>
@@ -50,5 +48,23 @@
                 <p>Website by Yannick Zuurbier</p>
             </footer>
         </div>
+
+        <script>
+            function openIt() {
+                document.getElementById("open1").classList.toggle("combined");
+            }
+
+            function openIt2() {
+                document.getElementById("open2").classList.toggle("combined");
+            }
+
+            function openIt3() {
+                document.getElementById("open3").classList.toggle("combined");
+            }
+
+            function openIt4() {
+                document.getElementById("open4").classList.toggle("combined");
+            }
+        </script>
     </body>
 </html>
