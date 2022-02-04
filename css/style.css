@@ -80,7 +80,7 @@ body {
     /* position: absolute; */
     margin-top: 15px;
     /* right: 20%; */
-    width: 70px;
+    width: auto;
     background: white;
     padding: 0px 20px 0px 20px;
     font-size: 15px;
@@ -138,12 +138,36 @@ body {
     display: block;
 }
 
+.route {
+    max-width: 826px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
 .uitleg {
     background: white;
     max-width: 800px;
     border-width: 3px;
     border-style: solid;
     border-color: white;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 4px;
+}
+
+.uitleg2 {
+    background: #3b427c;
+    max-width: 800px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    color: white;
     width: 100%;
     padding: 10px;
     display: block;
