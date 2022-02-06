@@ -150,14 +150,14 @@ body {
 .liveicon {
     height: 20px;
     margin-right: 10px;
-    margin-top: 6px;
+    margin-top: 9px;
 }
 
 .livetekst {
     color: white;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .route {
